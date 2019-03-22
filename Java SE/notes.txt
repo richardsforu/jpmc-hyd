@@ -1,2 +1,65 @@
 JAVA SE Notes
 -------------------
+Java SE - 12
+JAVA SE 8
+    1. Non GUI Part
+    2. GUI Part 
+        -> awt
+        -> swings
+
+Non GUI 
+---------
+1. OOPS
+-> class
+-> object
+-> Encapulation
+    -> public, default, private
+    -> packages
+    -> POJO classes
+    -> Model/Bean/Entity
+    -> Plain old java object
+    -> Plain old Java interface 
+-> Inheritance
+-> Abstraction
+    -> abstract classes
+-> Poly morphism
+    -> interfaces
+---------------------
+60%
+
+2. java.lang package
+-----------------------
+-> java.lang.Object
+-> String, StringBuffer
+-> Wraper classes   
+    -> Integer - int
+    -> Double  - double
+    -> Short
+    -> Byte
+    -> Float
+    -> Double
+    -> Character
+    -> Boolean
+-> Garbage Collection
+    -> finalize
+-> Exception Handling
+        -> Checked
+        -> Un Checked
+-> Threads
+        -> Single
+        -> Multi Thread
+        -> Thread Concurency
+---------------
+80%
+
+3. Java API
+    1. java.io
+        -> File Operations
+    2. java.util
+        -> Collection API
+        -> Data structores
+----------------
+100%
+
+
+
