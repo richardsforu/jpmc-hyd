@@ -3,3 +3,14 @@ JPMC HYD Notes
 
 https://b.socrative.com/login/student/
 Room name:  CTS7
+
+Intro to Java
+Collection API
+JOSN
+XML
+Spring Boot
+    -> Core
+    -> DAO
+    -> WEB MVC
+    -> Rest API
+-----------------------
