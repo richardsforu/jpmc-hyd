@@ -314,3 +314,72 @@ java.lang.IllegalArgumentException
 	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
 	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:57:11.795
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xTLcxSId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:57:11.796
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xTLcxSId
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:57:11.796
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:57:11.796
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xTLcxSId => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.278
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZZGgfJov
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.279
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZZGgfJov
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.284
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.284
+!MESSAGE subsribers = [sts4.classpath.ZZGgfJov]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.285
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.286
+!MESSAGE project App2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.286
+!MESSAGE Preparing classpath changed notification App2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.286
+!MESSAGE project App1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.287
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.287
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZZGgfJov => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.288
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.288
+!MESSAGE executing callback sts4.classpath.ZZGgfJov App2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.303
+!MESSAGE executing callback sts4.classpath.ZZGgfJov SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.303
+!MESSAGE Preparing classpath changed notification App1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.303
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.304
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.304
+!MESSAGE executing callback sts4.classpath.ZZGgfJov App1 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.306
+!MESSAGE executing callback sts4.classpath.ZZGgfJov SUCCESS [done]
