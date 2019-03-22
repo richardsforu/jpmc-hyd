@@ -100,6 +100,33 @@ letters
 Ex: java.lang, int, for, if,com
 
 
+Class relationships
+---------------------
+1. Is 'A' 
+2. Has 'A'
+
+1. Is 'A'
+------------
+class A{
+
+}
+class B extends A{
+// B is sub class of A
+}
+
+2. Has 'A'
+-----------
+class A{
+
+}
+
+class B{
+ A a=new A();  
+ // B has A's object
+
+}
+
+
 
 
 

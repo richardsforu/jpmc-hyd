@@ -383,3 +383,90 @@ java.lang.IllegalArgumentException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 11:58:09.306
 !MESSAGE executing callback sts4.classpath.ZZGgfJov SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:36.786
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZZGgfJov
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:36.786
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZZGgfJov
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:36.791
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:36.792
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZZGgfJov => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.478
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jCJVXHmR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.479
+!MESSAGE subscribing to classpath changes: sts4.classpath.jCJVXHmR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.484
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.484
+!MESSAGE subsribers = [sts4.classpath.jCJVXHmR]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.485
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.485
+!MESSAGE project App3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.486
+!MESSAGE project App1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.486
+!MESSAGE Preparing classpath changed notification App3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.486
+!MESSAGE project App2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.486
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.486
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.487
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jCJVXHmR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.487
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.487
+!MESSAGE executing callback sts4.classpath.jCJVXHmR App3 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.502
+!MESSAGE executing callback sts4.classpath.jCJVXHmR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.503
+!MESSAGE Preparing classpath changed notification App2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.503
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.504
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.504
+!MESSAGE executing callback sts4.classpath.jCJVXHmR App2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.506
+!MESSAGE executing callback sts4.classpath.jCJVXHmR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.507
+!MESSAGE Preparing classpath changed notification App1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.508
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.508
+!MESSAGE executing callback sts4.classpath.jCJVXHmR App1 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-22 12:22:58.510
+!MESSAGE executing callback sts4.classpath.jCJVXHmR SUCCESS [done]
