@@ -1332,3 +1332,444 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 11:17:04.205
 !MESSAGE executing callback sts4.classpath.ZtNOHwJt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:30:42.932
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZtNOHwJt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:30:42.938
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZtNOHwJt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:30:42.938
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:30:42.939
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZtNOHwJt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.497
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TTrmYjqT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.498
+!MESSAGE subscribing to classpath changes: sts4.classpath.TTrmYjqT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.498
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.498
+!MESSAGE subsribers = [sts4.classpath.TTrmYjqT]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.499
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.499
+!MESSAGE project App6 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.500
+!MESSAGE Preparing classpath changed notification App6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.500
+!MESSAGE project App1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.500
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.500
+!MESSAGE project App2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.501
+!MESSAGE project App3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.501
+!MESSAGE project App4 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.501
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.502
+!MESSAGE project App5 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.502
+!MESSAGE executing callback sts4.classpath.TTrmYjqT App6 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.502
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.503
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TTrmYjqT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.528
+!MESSAGE executing callback sts4.classpath.TTrmYjqT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.529
+!MESSAGE Preparing classpath changed notification App5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.529
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.530
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.530
+!MESSAGE executing callback sts4.classpath.TTrmYjqT App5 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.533
+!MESSAGE executing callback sts4.classpath.TTrmYjqT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.533
+!MESSAGE Preparing classpath changed notification App4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.534
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.535
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.535
+!MESSAGE executing callback sts4.classpath.TTrmYjqT App4 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.537
+!MESSAGE executing callback sts4.classpath.TTrmYjqT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.538
+!MESSAGE Preparing classpath changed notification App3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.538
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.539
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.540
+!MESSAGE executing callback sts4.classpath.TTrmYjqT App3 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.542
+!MESSAGE executing callback sts4.classpath.TTrmYjqT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.543
+!MESSAGE Preparing classpath changed notification App2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.543
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.544
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.544
+!MESSAGE executing callback sts4.classpath.TTrmYjqT App2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.547
+!MESSAGE executing callback sts4.classpath.TTrmYjqT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.547
+!MESSAGE Preparing classpath changed notification App1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.547
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.548
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.548
+!MESSAGE executing callback sts4.classpath.TTrmYjqT App1 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:11.551
+!MESSAGE executing callback sts4.classpath.TTrmYjqT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:20.357
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TTrmYjqT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:20.357
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TTrmYjqT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:20.357
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:20.357
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TTrmYjqT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.873
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ywqDmxlf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.873
+!MESSAGE subscribing to classpath changes: sts4.classpath.ywqDmxlf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.879
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.879
+!MESSAGE subsribers = [sts4.classpath.ywqDmxlf]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.879
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.880
+!MESSAGE project App6 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.880
+!MESSAGE project App1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.880
+!MESSAGE Preparing classpath changed notification App6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.880
+!MESSAGE project App2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.881
+!MESSAGE project App3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.881
+!MESSAGE project App4 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.881
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.881
+!MESSAGE project App5 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.882
+!MESSAGE executing callback sts4.classpath.ywqDmxlf App6 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.882
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.882
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ywqDmxlf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.900
+!MESSAGE executing callback sts4.classpath.ywqDmxlf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.901
+!MESSAGE Preparing classpath changed notification App5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.902
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.902
+!MESSAGE executing callback sts4.classpath.ywqDmxlf App5 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.905
+!MESSAGE executing callback sts4.classpath.ywqDmxlf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.905
+!MESSAGE Preparing classpath changed notification App4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.905
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.906
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.906
+!MESSAGE executing callback sts4.classpath.ywqDmxlf App4 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.909
+!MESSAGE executing callback sts4.classpath.ywqDmxlf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.909
+!MESSAGE Preparing classpath changed notification App3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.909
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.910
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.910
+!MESSAGE executing callback sts4.classpath.ywqDmxlf App3 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.913
+!MESSAGE executing callback sts4.classpath.ywqDmxlf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.913
+!MESSAGE Preparing classpath changed notification App2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.914
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.914
+!MESSAGE executing callback sts4.classpath.ywqDmxlf App2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.917
+!MESSAGE executing callback sts4.classpath.ywqDmxlf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.917
+!MESSAGE Preparing classpath changed notification App1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.918
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.918
+!MESSAGE executing callback sts4.classpath.ywqDmxlf App1 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:31:30.921
+!MESSAGE executing callback sts4.classpath.ywqDmxlf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:39:48.105
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ywqDmxlf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:39:48.105
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ywqDmxlf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:39:48.107
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:39:48.107
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ywqDmxlf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.840
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EdwAEjEy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.840
+!MESSAGE subscribing to classpath changes: sts4.classpath.EdwAEjEy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.846
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.846
+!MESSAGE subsribers = [sts4.classpath.EdwAEjEy]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.846
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.847
+!MESSAGE project Bank-APP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.847
+!MESSAGE project App1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.847
+!MESSAGE Preparing classpath changed notification Bank-APP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.847
+!MESSAGE project App2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.847
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.848
+!MESSAGE project App3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.848
+!MESSAGE project App4 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.848
+!MESSAGE project App5 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.849
+!MESSAGE project App6 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.849
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.849
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.849
+!MESSAGE executing callback sts4.classpath.EdwAEjEy Bank-APP false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.849
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EdwAEjEy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.868
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.868
+!MESSAGE Preparing classpath changed notification App6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.869
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.869
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.869
+!MESSAGE executing callback sts4.classpath.EdwAEjEy App6 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.872
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.872
+!MESSAGE Preparing classpath changed notification App5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.872
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.873
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.873
+!MESSAGE executing callback sts4.classpath.EdwAEjEy App5 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.875
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.875
+!MESSAGE Preparing classpath changed notification App4
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.876
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.876
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.876
+!MESSAGE executing callback sts4.classpath.EdwAEjEy App4 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.879
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.879
+!MESSAGE Preparing classpath changed notification App3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.879
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.880
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.880
+!MESSAGE executing callback sts4.classpath.EdwAEjEy App3 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.882
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.883
+!MESSAGE Preparing classpath changed notification App2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.883
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.884
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.884
+!MESSAGE executing callback sts4.classpath.EdwAEjEy App2 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.887
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.887
+!MESSAGE Preparing classpath changed notification App1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.887
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.888
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.888
+!MESSAGE executing callback sts4.classpath.EdwAEjEy App1 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-25 12:40:23.891
+!MESSAGE executing callback sts4.classpath.EdwAEjEy SUCCESS [done]

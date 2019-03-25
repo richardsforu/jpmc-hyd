@@ -166,6 +166,42 @@ Abstract classes
    Access the methods which are defined only 
    With in the sub classes (non over ridden methods )
 
+Interfaces in Java
+--------------------------
+
+Abstract classes issues
+-------------------------
+-> Does not support 100% abstraction
+-> Does not support extensibility 
+
+Interfaces
+-------------
+-> An interface is a method specification which 
+   Contains only zero or more abstract methods
+-> by default any property defined in the interface is public static and final
+-> by default every method in the interface is 
+   public and abstract 
+-> We cannot create object to an interface.
+-> but we can create a freebee variable to it.
+-> Interface reference can hold all its sub class  objects
+
+Notes
+------
+1. Interface can extends to another interface
+2. Interface can extends more than one interface
+3. Class can implements interface
+4. Class can implements more than one interface
+5. Interface can not implements another interface
+6. Class can not implements another class
+7. Class can not extends interface
+8. Class can extends only to another class
+9. Class can not extends more than one class
+
+
+
+
+
+
 
 
 
