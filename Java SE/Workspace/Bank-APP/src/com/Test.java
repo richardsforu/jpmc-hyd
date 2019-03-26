@@ -12,6 +12,9 @@ public class Test {
 		Manager m=new HdfcBank();
 		m.lockerAccess();
 		
+		Cleark c=new HdfcBank();
+		
+		
 
 	}
 

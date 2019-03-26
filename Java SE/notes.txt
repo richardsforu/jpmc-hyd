@@ -198,6 +198,110 @@ Notes
 9. Class can not extends more than one class
 
 
+Marker / Tagged interfaces
+
+1. Serializable
+2. Clonable
+3. SingleThreadModel 
+
+Class Abc implements Serializable { }
+
+Collection API
+------------------
+
+Emp e=new Emp();
+Object obj=e;
+obj=new Bank();
+Person p=obj -> invalid
+
+
+
+Int a=10;
+Integer a=10;
+float f=a.floatValue();
+double d=a.doubleValue();
+
+Generics
+-----------
+-> Type safety
+
+
+
+Collections
+--------------
+1. Core interfaces
+2. Implementation classes for the interfaces
+3. Operations on class methods
+
+Interfaces
+-----------------
+Collection (I)
+1. List (I)
+2. Set (I)
+3. Map (I)
+
+List interface
+----------------
+1. List extends Collection
+2. List contains Indexed based DS
+3. List accepts duplicate objects
+4. Order is guaranteed in the List
+
+List implementation classes
+-----------------------------
+1. ArrayList
+2. Vector
+3. LinkedList
+
+
+Set interfaces
+---------------
+1. Set extends Collection
+2. Set does not accept duplicates
+3. Set Insertion order is not guaranteed 
+4. Set is a non indexed data structure
+
+Classes that implements Set interface
+1. HashSet
+2. LinkedHashSet
+3. TreeSet
+
+
+Map interface
+-----------------
+1. Map interface is a non linear data structure
+2. Map stores as key and values pares
+3. Key is unique
+4. Value can be duplicate
+5. Insertion order is not guaranteed in the Map
+6. Its non indexed data structure
+
+Classes that implements Map interface
+1. HashMap
+2. LinkedHashMap
+3. Hash table
+4. TreeMap
+
+Utility classes in Collection framework 
+1. Date
+2. Calendar
+3. DateAndTime API
+4. Comparator interface
+5. Collections class
+6. Arrays class
+7. Collection concurrency operations
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
