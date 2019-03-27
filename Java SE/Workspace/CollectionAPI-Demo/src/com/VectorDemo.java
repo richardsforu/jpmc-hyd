@@ -1,15 +1,14 @@
 package com;
 
-import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Stack;
+import java.util.Vector;
 
-public class ArrayListDemo {
+public class VectorDemo {
 
 	public static void main(String[] args) {
 
-		ArrayList<Object> ar = new ArrayList<>(); // 10
 		
-	
+		Vector<Object> ar = new Vector<>(); //  Synchronized methods
 		int[] nos = { 210, 324 };
 		// add object
 		ar.add(new Integer(123));
@@ -19,7 +18,6 @@ public class ArrayListDemo {
 		ar.add(764.45f);
 		ar.add(7474.45);
 		ar.add(false);
-		ar.add("Abc");
 		ar.add(new Object());
 		ar.add(0, 7777);
 
