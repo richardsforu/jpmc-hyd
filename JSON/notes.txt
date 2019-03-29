@@ -1,2 +1,30 @@
 JSON Notes
 --------------
+JSON: JavaScript Object Notion
+It is a text-based and lightweight format for data transactions. 
+JSON format was first computed by Douglas Crockford.
+
+Usage of JSON
+It is mainly used for transmitting data over the network connection.
+It can be used with all the major programming languages.
+Useful in data transition from the web application to the server.
+Most of the web services use JSON based format for data transfer.
+
+Properties of JSON
+It is a text-based lightweight data interchange format.
+It has been extended from the JavaScript language.
+Its extension is .json.
+Being a text-based format it is easy to read and write by both the user/programmer and the machines.
+This is independent of programming language but it also uses the conventions that are quite well known within the C-Family of languages like C, C++, C#, JavaScript, Java, Python, Perl etc.
+
+What is a JSON Object?
+JSON object is a set of Keys along with its values without any specific order.
+
+The key and their values are grouped using curly braces, both opening and closing “{ }”. 
+
+JSON Objects should start and end with braces “{ }”.
+Key fields are included in the double quotes.
+Values are represented by putting “:” colon between them and the keys.
+JSON key-value pairs are separated by a comma “,”.
+Values can be of any data type like String, Integer, Boolean etc.
+

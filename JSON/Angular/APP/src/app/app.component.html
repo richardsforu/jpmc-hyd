@@ -1,0 +1,32 @@
+<div class="container mt-3">
+
+  <div class="alert alert-info text-center">
+    <h1>JSON Demo</h1>
+  </div>
+
+ <table class="table  table-striped">
+<tr>
+  <th>ID</th>
+  <th>Name</th>
+</tr>
+
+<tr *ngFor="let emp of emps">
+  <td>{{emp.id}}</td>
+  <td>{{emp.name}}</td>
+  
+</tr>
+
+ </table>
+
+
+ <div class="list-group-item">
+
+  <div *ngFor="let pno of emp.phno">
+    Phno: <span class="bg-primary">{{pno}}</span>
+  </div>
+ 
+  
+ </div>
+
+
+</div>

@@ -1,0 +1,69 @@
+https://jsonlint.com/
+Mobile
+————
+company, modelName, price, image:’m1.png’
+Configuration
+	-> ram size
+	-> processor
+	-> internal memory
+Features
+	-> camera - many
+	-> security - many
+Reviews -> many reviews
+	-> id
+	-> user name
+	-> review
+
+
+————————————————————
+
+Sample
+
+[{
+		"id": "P001",
+		"name": "Loptop",
+		"price": 87000,
+		"description": "Dell I7",
+		"store": {
+			"storeid": "Store001",
+			"location": "Hyderabad",
+			"subLocations": [{
+					"id": "Loc001",
+					"storeName": "Abc Store",
+					"locAddr": "Madhapur"
+				},
+				{
+					"id": "Loc002",
+					"storeName": "Xyz Store",
+					"locAddr": "Panjagutta"
+				}
+			]
+		}
+	},
+
+	{
+		"id": "P002",
+		"name": "Mobile",
+		"price": 87000,
+		"description": "Dell I7",
+		"store": {
+			"storeid": "Store001",
+			"location": "Hyderabad",
+			"subLocations": [{
+					"id": "Loc001",
+					"storeName": "Abc Store",
+					"locAddr": "Madhapur"
+				},
+				{
+					"id": "Loc002",
+					"storeName": "Xyz Store",
+					"locAddr": "Panjagutta"
+				}
+			]
+		}
+	}
+]
+
+
+
+					
