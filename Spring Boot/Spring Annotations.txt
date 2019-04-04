@@ -1,0 +1,36 @@
+Application Structure
+——————————
+
+1. POJO class/Model/Entity
+2. Plan your dao classes
+3. plan your service classes
+4. Main program
+
+Package structure
+com.cts.product.dao
+com.cts.product.service
+com.cts.product.model
+com.cts.product.utils
+
+Spring Anotations
+
+@Component
+@Service
+@Repository
+@Controller
+@Configuration
+
+
+@Autowired
+
+
+
+
+
+
+
+
+
+
+
+
