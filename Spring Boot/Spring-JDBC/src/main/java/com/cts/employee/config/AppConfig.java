@@ -20,7 +20,7 @@ public class AppConfig {
 	private Environment env;
 
 	@Bean
-	public DataSource dataSource() {
+	public DataSource getDataSource() {
 		DriverManagerDataSource dmds = new DriverManagerDataSource();
 		dmds.setUrl(env.getProperty("url"));
 		dmds.setUsername(env.getProperty("dbuser"));
@@ -33,7 +33,7 @@ public class AppConfig {
 	@Bean
 	public JdbcTemplate getjdbcTemplate() {
 		JdbcTemplate jt = new JdbcTemplate();
-		jt.setDataSource(dataSource());
+		jt.setDataSource(getDataSource());
 
 		return jt;
 	}
