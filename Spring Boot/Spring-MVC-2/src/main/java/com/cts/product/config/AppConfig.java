@@ -7,5 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages= {"com.cts.product.service","com.cts.product.dao"})
 public class AppConfig {
 	
+	
 
 }
