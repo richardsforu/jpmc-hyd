@@ -21,7 +21,12 @@ public class EmployeeDaoImpl {
 	public void saveEmployee(Employee emp) {
 		String qry = "insert into employee values(?,?,?)";
 		jt.update(qry, emp.getId(), emp.getName(), emp.getSalary());
-		System.out.println("---- Dao: Record Inserted to DB");
+		//System.out.println("---- Dao: Record Inserted to DB");
+	}
+	
+	public void removeEmployee(String id) {
+		String qry="delete from employee where id=?";
+		jt.update(qry,id);
 	}
 
 	public void updateEmloyee(Employee emp) {

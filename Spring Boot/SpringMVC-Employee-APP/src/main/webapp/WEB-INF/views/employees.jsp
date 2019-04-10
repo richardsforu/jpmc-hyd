@@ -18,6 +18,8 @@
 			<th>Employee Id</th>
 			<th>Name</th>
 			<th>Salary</th>
+			<th>Option1</th>
+			<th>Option2</th>
 		</tr>
 
 		<c:forEach var="emp" items="${employees}">
@@ -26,6 +28,8 @@
 				<th> <a href="findEmployee?id=${emp.id}">${emp.id}</a></th>
 				<td>${emp.name}</td>
 				<td>${emp.salary}</td>
+				<th> <a href="findEmployee?id=${emp.id}&status=update">Edit</a></th>
+				<th> <a href="findEmployee?id=${emp.id}&status=remove">Remove</a></th>
 			</tr>
 		</c:forEach>
 

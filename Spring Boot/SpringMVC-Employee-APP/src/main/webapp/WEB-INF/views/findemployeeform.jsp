@@ -11,10 +11,10 @@
 
 	<jsp:include page="menu.jsp" />
 	<hr />
-	<form action="findEmployee">
+	<form action="findEmployee?status=${status}" method="post">
 
 
-		<table align="center" border="1">
+		<table align="center" border="0">
 
 			<tr>
 				<th>Employee Id:</th>
@@ -29,7 +29,7 @@
 		
 			<tr>
 				<th colspan="2">
-					<button type="submit">Find</button>
+					<button type="submit">${status}</button>
 				</th>
 			</tr>
 

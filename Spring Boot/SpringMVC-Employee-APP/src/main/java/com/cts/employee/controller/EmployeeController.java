@@ -50,34 +50,91 @@ public class EmployeeController {
 		mav.setViewName("redirect:listAll");
 		return mav;
 	}
-	
+
 	// find EMployee
-	
+
 	// load Find employee page
 	@RequestMapping("loadFindEmpoyeeForm")
-	public String loadFindEmployeePage() {
-		return "findemployeeform";
-	}
-	
-	
-	// load employee from db
-	
-	@RequestMapping("findEmployee")
-	public ModelAndView findEmployee(@RequestParam("id")String id) {
-		ModelAndView mav=new ModelAndView();
-	
+	public String loadFindEmployeePage(@RequestParam("status")String status,Model model) {
+		
 		String url=null;
-		Employee emp=empDao.findById(id);
-		if(emp!=null) {
-			url="employee";
-			mav.addObject("emp", emp);
-		}else {
-			url="findemployeeform?msg=Employee Id Does not exists";
+		// To Display Find form
+		
+		if(status.equals("find")) {
+		url="findemployeeform"	;
+		model.addAttribute("status",status);
 		}
 		
+
+		if(status.equals("update")) {
+		url="findemployeeform";
+		model.addAttribute("status",status);
+		}
+		
+		if(status.equals("remove")) {
+			url="findemployeeform";
+			model.addAttribute("status",status);
+		}
+		
+		// To Display update form
+		
+		
+		
+		return "findemployeeform";
+	}
+
+	// load employee from db
+
+	@RequestMapping("findEmployee")
+	public ModelAndView findEmployee(@RequestParam("id") String id,@RequestParam("status")String status) {
+		
+		//System.out.println("----> Status: "+status);
+		ModelAndView mav = new ModelAndView();
+
+		String url = null;
+		if(status.equals("remove")) {
+			url="redirect:listAll";
+			empDao.removeEmployee(id);
+			mav.setViewName(url);
+			return mav;
+		}
+		
+		Employee emp = empDao.findById(id);
+		
+		
+		
+		if(status.equals("update")) {
+			url="employeeupdateform";
+			mav.addObject("employee",emp);
+		}
+		
+		
+		if (emp != null && !(status.equals("update"))) {
+			url = "employee";
+			mav.addObject("emp", emp);
+		} else {
+			//url = "findemployeeform?msg=Employee Id Does not exists";
+		}
+
 		mav.setViewName(url);
 		return mav;
+
+	}
+	
+	// Update EMployee to DB
+	
+	@RequestMapping("updateEmployee")
+	public String something(@ModelAttribute Employee emp) {
+		
+		empDao.updateEmloyee(emp);
+		
+		return "redirect:listAll";
 		
 	}
+	
+	
+	
+	
+	
 
 }

@@ -13,9 +13,9 @@
 <a href="./">Home</a> |
 <a href="loadEmployeeForm">Add</a> |
 <a href="listAll">Display</a> |
-<a href="loadFindEmpoyeeForm">Find</a> |
-<a href="/">Update</a> |
-<a href="/">Delete</a> |
+<a href="loadFindEmpoyeeForm?status=find">Find</a> |
+<a href="loadFindEmpoyeeForm?status=update">Update</a> |
+<a href="loadFindEmpoyeeForm?status=remove">Delete</a> |
 <a href="/">Signout</a> 
 
 </p>
